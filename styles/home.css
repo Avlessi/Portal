@@ -3,8 +3,10 @@ body {
 	background-color: white;
 }
 
-h2 {
+h1 {
 	color: #24479b;
+	font-size: 325%;
+
 }
 
 .content-margin {
@@ -38,6 +40,10 @@ h2 {
 	color: #FFFACD;
 	background-color: red;
 	
+}
+
+.sub-button {
+	background: #6B8E23;
 }
 /*.btn-stripe:active {
 	background: #008cdd;

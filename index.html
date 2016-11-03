@@ -11,27 +11,33 @@
 
 	<div class="container">
 
+
+
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<img width="100px" height="100px" src="images/carrefour.png">
+
 			</div>
 			<div class="col-md-5 text-center">				
-				<h2>Agile Fabric</h2>	
+				<h1>Agile Fabric Portal</h1>	
 			</div>
-		</div>
+
+		</div>		
+			
+		
 
 		<div class="content-margin"></div>
 
-		<div class="row">			
+		<!--<div class="row">			
 
 			<div class="col-md-5 col-md-offset-1 text-center">
 				<img src="images/bitbucket.png" width="50px" height="50px" alt="bitbucket image">
-				<a href="https://bitbucket.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block">Bitbucket</a>
+				<a href="https://bitbucket.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block">Bitbucket</a>
 			</div>
 
 			<div class="col-md-5 text-center">
 				<img src="images/jenkins.jpeg" width="50px" height="50px" alt="jenkins image">
-				<a href="https://jenkins.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Jenkins</a>
+				<a href="https://jenkins.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Jenkins</a>
 			</div>
 			
 		</div>
@@ -40,12 +46,12 @@
 
 			<div class="col-md-5 col-md-offset-1 text-center">
 				<img src="images/nexus.png" width="50px" height="50px" alt="nexus image">
-				<a href="https://nexus.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Nexus</a>
+				<a href="https://nexus.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Nexus</a>
 			</div>
 
 			<div class="col-md-5 text-center">
 				<img src="images/sonar.jpeg" width="50px" height="50px" alt="sonar image">
-				<a href="https://sonar.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Sonar</a>
+				<a href="https://sonar.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Sonar</a>
 			</div>
 		</div>
 
@@ -53,12 +59,12 @@
 
 			<div class="col-md-5 col-md-offset-1 text-center">
 				<img src="images/jira.png" width="50px" height="50px" alt="jira image">
-				<a href="https:/jira.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Jira</a>
+				<a href="https://jira.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Jira</a>
 			</div>
 
 			<div class="col-md-5 text-center">
 				<img src="images/confluence.png" width="50px" height="50px" alt="confluence image">
-				<a href="https://confluence.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Confluence</a>
+				<a href="https://confluence.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Confluence</a>
 			</div>
 		</div>
 
@@ -66,14 +72,221 @@
 
 			<div class="col-md-5 col-md-offset-1 text-center">	
 				<img src="images/chat.png" width="50px" height="50px" alt="chat image">
-				<a href="https:/rocket.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Rocket</a>
+				<a href="https://rocket.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">Rocket</a>
 			</div>
 
 			<div class="col-md-5 text-center">
 				<img src="images/elasticsearch.png" width="50px" height="50px" alt="elasticsearch image">
-				<a href="https://elk.devel.c4.prototyp.it/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">ELK</a>
+				<a href="https://elk.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block" data-ripple-color="#F0F0F0">ELK</a>
 			</div>	
+		</div>  -->
+
+
+		<!-- DevOps -->
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#devops-div">Devops collaboration</button>
+			</div>
 		</div>
+
+		<div class="row collapse" id="devops-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center">
+
+				<div class="row">
+					<div class="col-md-2">
+						<img src="images/chat.png" width="50px" height="50px" alt="chat image">
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://rocket.{{ dns_domain }}/" target="_blank" class="btn btn-stripe btn-block sub-button" data-ripple-color="#F0F0F0">Rocket</a> 
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-2">
+						<img src="images/confluence.png" width="50px" height="50px" alt="confluence image">
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://confluence.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Confluence</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-2">
+						<img src="images/jira.png" width="50px" height="50px" alt="jira image">
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://jira.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Jira</a>
+					</div>
+				</div>				
+				
+			</div>
+		</div>
+
+
+		<!-- Integration platform -->
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#integration-div">Integration platform</button>
+			</div>
+
+		</div>
+
+		<div class="row collapse" id="integration-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center" >
+
+				<!-- Jenkins -->
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="images/jenkins.jpeg" width="50px" height="50px" alt="jenkins image">
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://jenkins.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Jenkins</a>
+					</div>
+				</div>
+
+
+				<!-- BitBucket -->
+				<div class="row">
+					<div class="col-md-2">
+						<img src="images/bitbucket.png" width="50px" height="50px" alt="bitbucket image">
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://bitbucket.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block">Bitbucket</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- Software components catalog -->
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#software-div">Software components catalog</button>
+			</div>
+
+		</div>
+
+		<div class="row collapse" id="software-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center">
+
+				<!-- Nexus -->
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="images/nexus.png" width="50px" height="50px" alt="nexus image">
+				
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://nexus.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Nexus</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<!-- Supervision -->
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#supervision-div">Supervision</button>
+			</div>
+
+		</div>
+
+		<div class="row collapse" id="supervision-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center">
+
+				<!-- Grafana -->
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="images/grafana.jpeg" width="50px" height="50px" alt="grafana image">
+				
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://grafana.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Grafana</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<!-- Qualimetry -->		
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#qualimetry-div">Qualimetry</button>
+			</div>
+
+		</div>
+
+		<div class="row collapse" id="qualimetry-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center">
+
+				<!-- Sonar -->
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="images/sonar.jpeg" width="50px" height="50px" alt="sonar image">				
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://sonar.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">Sonar</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<!-- Diagnostics -->		
+		<div class="row">			
+
+			<div class="col-md-5 col-md-offset-4 text-center">			
+
+				<button class="btn btn-stripe btn-block" data-toggle="collapse" data-target="#diagnostics-div">Diagnostics</button>
+			</div>
+
+		</div>
+
+		<div class="row collapse" id="diagnostics-div">
+
+			<div class="col-md-5 col-md-offset-4 text-center">
+
+				<!-- Elk -->
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="images/elasticsearch.png" width="50px" height="50px" alt="elasticsearch image">			
+					</div>
+
+					<div class="col-md-10">
+						<a href="https://sonar.{{ dns_domain }}/" target="_blank" class="btn sub-button btn-stripe btn-block" data-ripple-color="#F0F0F0">ELK</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+
+
+			
+			
+
+
+		
+
 		
 	</div>	
 
